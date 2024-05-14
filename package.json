@@ -1,0 +1,12 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "* There are two types of laguages:\r 1. Strongly typed Language \r 2. loosely typed language",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
