@@ -15,7 +15,7 @@
 * Note- People realised that javascript is a very power language, but lacks types.
 
 
-## What is typescript ?
+# What is typescript ?
 * TypeScript is a programming language developed and maintained by Microsoft. 
 * It is a strict syntactical superset of JavaScript and adds optional static typing to the language.
 
@@ -41,3 +41,6 @@
 2. npm init -y &  npx tsc --init 
 
 . This is the high level benefit of typescript. It lets you catch type errors at compile time
+
+# Basic Types in TypeScript
+* Typescript provides you some basic types number, string, boolean, null, undefined, any.
