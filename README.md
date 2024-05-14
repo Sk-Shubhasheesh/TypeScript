@@ -44,3 +44,6 @@
 
 # Basic Types in TypeScript
 * Typescript provides you some basic types number, string, boolean, null, undefined, any.
+
+## The tsconfig file
+![alt text](img/ts.png)

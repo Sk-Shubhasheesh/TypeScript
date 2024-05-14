@@ -32,3 +32,6 @@ function delayedCall(fn: () => void) {
 delayedCall(function() {
     console.log("hi there");
 })
+
+
+
