@@ -101,3 +101,6 @@ type User = {
 }
 
 ```
+
+# Arrays in TS
+* If you want to access arrays in typescript, it’s as simple as adding a [] annotation next to the type
