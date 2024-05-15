@@ -89,3 +89,15 @@ interface TodoType {
     </div>
   }
 ```
+
+# Types
+## What are types ?
+* Very similar to interfaces , types let you aggregate data together.
+```.ts
+type User = {
+	firstName: string;
+	lastName: string;
+	age: number
+}
+
+```
