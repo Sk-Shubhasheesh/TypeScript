@@ -47,3 +47,45 @@
 
 ## The tsconfig file
 ![alt text](img/ts.png)
+
+# Interfaces
+##  What are interfaces ?
+* How can you assign types to objects? For example, a user object that looks like this - 
+```.js
+const user = {
+	firstName: "harkirat",
+	lastName: "singh",
+	email: "email@gmail.com".
+	age: 21,
+}
+```
+To assign a type to the user object, you can use interfaces
+```.ts
+interface User {
+	firstName: string;
+	lastName: string;
+	email: string;
+	age: number;
+}
+```
+#### Task - Create a React component that takes todos as an input and renders them
+```.js
+// Todo.tsx
+interface TodoType {
+    title: string;
+    description: string;
+    done: boolean;
+  }
+  
+  interface TodoInput {
+    todo: TodoType;
+  }
+  
+  function Todo({ todo }: TodoInput) {
+    return <div>
+      <h1>{todo.title}</h1>
+      <h2>{todo.description}</h2>
+      
+    </div>
+  }
+```
