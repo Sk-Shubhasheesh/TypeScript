@@ -108,3 +108,35 @@ type User = {
 # ENUMS in TS
 * Enums (short for enumerations) in TypeScript are a feature that allows you to define a set of named constants.
 * The concept behind an enumeration is to create a human-readable way to represent a set of constant values, which might otherwise be represented as numbers or strings.
+
+# TypeScript Tuples
+* A tuple is a typed array with a pre-defined length and types for each index.
+* Tuples are great because they allow each element in the array to be a known type of value.
+* A good practice is to make your tuple readonly.
+```.ts
+// define our tuple
+let ourTuple: [number, boolean, string];
+// initialize correctly
+ourTuple = [5, false, 'Coding God was here'];
+ourTuple.push('Something new and wrong');
+console.log(ourTuple);
+```
+* Named tuples allow us to provide context for our values at each index.
+```.ts
+const graph: [x: number, y: number] = [55.2, 41.3];
+```
+
+* Since tuples are arrays we can also destructure them.
+```.ts
+// Define a tuple
+let tuple: [number, string, boolean] = [10, "hello", true];
+// Destructuring the tuple
+let [num, str, bool] = tuple;
+
+// Now you can use the individual values
+console.log(num); // Output: 10
+console.log(str); // Output: hello
+console.log(bool); // Output: true
+
+```
+
