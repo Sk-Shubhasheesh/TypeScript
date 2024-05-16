@@ -140,3 +140,19 @@ console.log(bool); // Output: true
 
 ```
 
+# TypeCasting in TS
+
+* TypeScript provides type casting mechanisms to explicitly convert a value from one type to another. This is particularly useful when TypeScript's type inference doesn't automatically determine the desired type, or when you're working with union types and need to narrow down the type.
+* There are two main ways to perform type casting in TypeScript:
+
+## 1. Angle Bracket Syntax:
+```.ts
+let someValue: any = "hello";
+let strLength: number = (<string>someValue).length;
+```
+## 2. As-Keyword Syntax:
+```.ts
+let someValue: any = "hello";
+let strLength: number = (someValue as string).length;
+
+```
