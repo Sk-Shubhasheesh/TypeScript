@@ -104,3 +104,7 @@ type User = {
 
 # Arrays in TS
 * If you want to access arrays in typescript, it’s as simple as adding a [] annotation next to the type
+
+# ENUMS in TS
+* Enums (short for enumerations) in TypeScript are a feature that allows you to define a set of named constants.
+* The concept behind an enumeration is to create a human-readable way to represent a set of constant values, which might otherwise be represented as numbers or strings.
