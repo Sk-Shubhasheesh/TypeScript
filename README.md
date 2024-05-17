@@ -311,3 +311,7 @@ app.put("/user", (req, res) => {
 
 app.listen(3000);
 ```
+
+# Generics in TS
+* Generics in TypeScript are a powerful feature that allows you to create reusable and flexible components, functions, classes, and interfaces. 
+* They enable you to define a component or function with a placeholder for the type of data it will operate on, which can then be specified later when the component or function is used.
